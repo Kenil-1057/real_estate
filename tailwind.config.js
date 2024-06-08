@@ -27,6 +27,16 @@ module.exports = {
         inter: ["Inter", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
       },
+      colors: {
+        'primary':'#0093FF',
+        'secondary':'#303A42',
+        'tersery':'#0093FF',
+      },
+      lineHeight: {
+        '82': '82px',
+        '45': '45px',
+        '52':'52px',
+      },
     },
   },
   plugins: [],

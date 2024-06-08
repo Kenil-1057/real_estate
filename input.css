@@ -2,3 +2,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html, body {
+    height: 100%;  /* Ensure both html and body take the full viewport height */
+    margin: 0;    /* Remove default margin */
+}
+
+.hero-img{
+    border: 5px solid black;
+    background-image: url('assets\Group 1.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+}
+
+.primary_btn{
+    background-color: #0093FF;
+    padding: 19px 40px;
+    border-radius: 10px;
+    color: white;
+    font-family:'inter', Times, serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.secondary_btn{
+    padding: 19px 40px;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF;
+    font-family:'inter', Times, serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
