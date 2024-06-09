@@ -31,12 +31,20 @@ module.exports = {
         'primary':'#0093FF',
         'secondary':'#303A42',
         'tersery':'#0093FF',
+        'input':'#303A42',
+        'footer':'#161B1F'
       },
       lineHeight: {
         '82': '82px',
         '45': '45px',
         '52':'52px',
       },
+      letterSpacing: {
+        '2': '0.02em',
+      },
+      padding: {
+        '70': '70px',
+      }
     },
   },
   plugins: [],

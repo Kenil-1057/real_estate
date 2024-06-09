@@ -30,9 +30,7 @@ html, body {
 
 .secondary_btn{
     padding: 19px 40px;
-    color: white;
     border-radius: 10px;
-    border: 1px solid #FFFFFF;
     font-family:'inter', Times, serif;
     font-weight: 700;
     font-size: 18px;
@@ -43,3 +41,7 @@ img{
     display: block;
     max-width: 100%;
 }
+
+
+
+
