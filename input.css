@@ -18,6 +18,8 @@ html, body {
 }
 
 .primary_btn{
+    display: block;
+    width: fit-content;
     background-color: #0093FF;
     padding: 19px 40px;
     border-radius: 10px;
